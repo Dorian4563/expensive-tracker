@@ -1,3 +1,4 @@
+/* global localStorage */
 const balance = document.getElementById('balance')
 const income = document.getElementById('income')
 const expense = document.getElementById('expense')
@@ -25,11 +26,6 @@ function addTransaction (e) {
   amount.value = ''
 }
 
-function deleteTransaction (id) {
-  transactions = transactions.filter(t => t.id !== id)
-  updateLocalStorage()
-  render()
-}
 
 function render () {
   list.innerHTML = ''
