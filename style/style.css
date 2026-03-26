@@ -10,7 +10,7 @@ body {
   display: flex;
   justify-content: center;
   padding: 20px;
-  background-image: url(../asset/image/hand-drawn-employee-savings-plan-illustration_52683-143701.avif);
+  background-image: url("../asset/image/hand-drawn-employee-savings-plan-illustration_52683-143701.avif");
   background-size: cover;
 }
 
@@ -52,7 +52,7 @@ form {
   gap: 10px;
 }
 
-input, button {
+input button {
   padding: 10px;
   border-radius: 5px;
   border: 1px solid #ccc;
