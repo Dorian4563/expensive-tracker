@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-image: url("../asset/image/hand-drawn-employee-savings-plan-illustration_52683-143701.avif");
+  background-size: cover;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.balance {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.income {
+  color: green;
+}
+
+.expense {
+  color: red;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-right: 5px solid;
+}
+
+li.plus {
+  border-color: green;
+}
+
+li.minus {
+  border-color: red;
+}
+
+.delete-btn {
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
