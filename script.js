@@ -7,7 +7,7 @@ const form = document.getElementById('form')
 const text = document.getElementById('text')
 const amount = document.getElementById('amount')
 
-let transactions = JSON.parse(localStorage.getItem('transactions')) || []
+const transactions = JSON.parse(localStorage.getItem('transactions')) || []
 
 function addTransaction (e) {
   e.preventDefault()
@@ -25,7 +25,6 @@ function addTransaction (e) {
   text.value = ''
   amount.value = ''
 }
-
 
 function render () {
   list.innerHTML = ''
