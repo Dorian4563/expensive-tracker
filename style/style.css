@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   background: #f4f4f4;
   display: flex;
   justify-content: center;
@@ -58,7 +58,7 @@ input button {
   border: 1px solid #ccc;
 }
 
-button {
+input button {
   background: #007bff;
   color: white;
   cursor: pointer;
